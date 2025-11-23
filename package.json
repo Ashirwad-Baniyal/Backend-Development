@@ -1,0 +1,16 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "Full backend",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+   "dev":"nodemon src/index.js"  
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Ashirwad",
+  "license": "ISC"
+}
