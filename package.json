@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "Full backend",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-   "dev":"nodemon src/index.js"  
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Ashirwad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
 }
